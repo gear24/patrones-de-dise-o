@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect x="200" y="50" width="200" height="100" stroke="black" fill="none"/>
+  <text x="300" y="80" text-anchor="middle" font-weight="bold">Contexto</text>
+  <line x1="200" y1="90" x2="400" y2="90" stroke="black"/>
+  <text x="300" y="110" text-anchor="middle">+ establecerEstrategia()</text>
+  <text x="300" y="130" text-anchor="middle">+ mostrarMensaje()</text>
+
+  <rect x="50" y="250" width="200" height="100" stroke="black" fill="none"/>
+  <text x="150" y="280" text-anchor="middle" font-weight="bold">Estrategias</text>
+  <text x="150" y="300" text-anchor="middle">- Salida por Consola</text>
+  <text x="150" y="320" text-anchor="middle">- Salida JSON</text>
+  <text x="150" y="340" text-anchor="middle">- Salida a Archivo TXT</text>
+
+  <rect x="350" y="250" width="200" height="100" stroke="black" fill="none"/>
+  <text x="450" y="280" text-anchor="middle" font-weight="bold">Interfaz Estrategia</text>
+  <line x1="350" y1="290" x2="550" y2="290" stroke="black"/>
+  <text x="450" y="310" text-anchor="middle">+ mostrar(mensaje: string)</text>
+
+  <path d="M300 150 L150 250" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M300 150 L450 250" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+</svg>

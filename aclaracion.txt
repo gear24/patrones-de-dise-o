@@ -1,0 +1,10 @@
+Los diagramas si fueron hechos con gpt, por eso todos feos, pero olvide que cosos se le ponian donde lo de + y -
+la info fue tomada de
+https://refactoring.guru/es/design-patterns
+https://refactoring.guru/es/design-patterns/catalog
+https://diego.com.es/patrones-de-diseno-en-php
+https://github.com/alejandrososa/PatronesDiseno
+https://stackoverflow-com.translate.goog/questions/2083424/what-is-a-factory-design-pattern-in-php?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+https://softwareengineering-stackexchange-com.translate.goog/questions/177111/should-i-use-the-factory-design-pattern-for-every-class?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+https://www.geeksforgeeks.org/strategy-pattern-set-1/
+https://www.geeksforgeeks.org/decorator-pattern/

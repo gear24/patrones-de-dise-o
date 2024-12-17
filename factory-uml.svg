@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect x="50" y="50" width="200" height="150" stroke="black" fill="none"/>
+  <text x="150" y="80" text-anchor="middle" font-weight="bold">PersonajeFactory</text>
+  <line x1="50" y1="90" x2="250" y2="90" stroke="black"/>
+  <text x="150" y="110" text-anchor="middle">+ crearPersonaje(nivel: string): Personaje</text>
+
+  <rect x="350" y="50" width="200" height="150" stroke="black" fill="none"/>
+  <text x="450" y="80" text-anchor="middle" font-weight="bold">Personaje</text>
+  <line x1="350" y1="90" x2="550" y2="90" stroke="black"/>
+  <text x="450" y="110" text-anchor="middle">+ atacar(): void</text>
+  <text x="450" y="130" text-anchor="middle">+ obtenerVelocidad(): int</text>
+
+  <rect x="200" y="250" width="200" height="100" stroke="black" fill="none"/>
+  <text x="300" y="280" text-anchor="middle" font-weight="bold">Personajes Concretos</text>
+  <text x="300" y="300" text-anchor="middle">- Esqueleto</text>
+  <text x="300" y="320" text-anchor="middle">- Zombie</text>
+
+  <path d="M150 200 L300 250" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M450 200 L350 250" stroke="black" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+    </marker>
+  </defs>
+</svg>
